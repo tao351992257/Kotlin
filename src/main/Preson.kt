@@ -16,4 +16,8 @@ class Preson {
     fun getName(string: String): String {
         return ""
     }
+
+    override fun toString(): String {
+        return "name:${name}\nstate:${state}"
+    }
 }
