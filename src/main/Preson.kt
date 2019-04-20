@@ -7,6 +7,7 @@ package main
 class Preson {
     var name: String? = null
     var state: Int? = null
+    
 
     constructor(name: String?, state: Int?) {
         this.name = name
